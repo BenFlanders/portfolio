@@ -521,7 +521,7 @@ body{
     display: inline-block;
     margin:0px 10px;
     color:#000;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1.6rem;
     text-transform: uppercase;
     cursor: pointer;
@@ -604,7 +604,7 @@ body{
     color: #fff;
     background-color: #e28000;
     padding:12px 24px;
-    border:1px solid #e28000;
+    border:2px solid #e28000;
     border-radius: 4px;
     text-transform: uppercase;
     font-weight: 600;
@@ -622,11 +622,11 @@ body{
 
 .portfolio .portfolio-gallery .item .view-site{
     font-size: 1.2rem;
-    color: #fff;
-    background-color: #0069e2;
+    color: #000;
+    background-color: transparent;
     padding:12px 20px;
     letter-spacing: 2px;
-    border:1px solid #0069e2;
+    border:2px solid #000;
     border-radius: 4px;
     text-transform: uppercase;
     font-weight: 600;
@@ -977,6 +977,14 @@ footer .social a{
 
 footer .social a:hover{
     color:#fff;
+}
+
+footer .update-message{
+    flex:0 0 100%;
+    max-width: 100%;
+    color:#838383;
+    font-size: 1.3rem;
+    padding-top: 13px;
 }
 
 .copyright {
